@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Pixel 9 -->
+  <project path="device/google/tokay" remote="github" name="LineageOS/android_device_google_tokay" revision="lineage-23.2" />
+
+<!-- Common trees -->
+  <project path="device/google/gs101" remote="axion_devices" name="android_device_google_gs101" revision="lineage-23.2" />
+  <project path="device/google/gs201" remote="axion_devices" name="android_device_google_gs201" revision="lineage-23.2" />
+  <project path="device/google/gs-common" remote="axion_devices" name="android_device_google_gs-common" revision="lineage-23.2" />
+  <project path="device/google/zuma" remote="axion_devices" name="android_device_google_zuma" revision="lineage-23.2" />
+    <!-- horst adapted -->
+  <project path="device/google/caimito" remote="github" name="Localhorst04/android_device_google_caimito" revision="lineage-23.2" />
+  <project path="device/google/zumapro" remote="github" name="Localhorst04/android_device_google_zumapro" revision="lineage-23.2" />
+
+<!-- Kernel -->
+  <project path="device/google/caimito-kernels" remote="github" name="LineageOS/android_device_google_caimito-kernels" revision="lineage-23.2" />
+
+<!-- Vendor -->
+  <project path="vendor/google/tokay" remote="github" name="TheMuppets/proprietary_vendor_google_tokay" revision="lineage-23.2" />
+</manifest>
